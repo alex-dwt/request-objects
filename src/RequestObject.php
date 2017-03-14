@@ -4,7 +4,7 @@ namespace Fesor\RequestObject;
 
 use Symfony\Component\Validator\Constraint;
 
-class RequestObject
+class RequestObject implements ValidationRules
 {
     private $payload;
 
@@ -14,14 +14,14 @@ class RequestObject
     }
 
     /**
-     * @return Constraint|Constraint[]
+     * @inheritdoc
      */
     public function rules()
     {
     }
 
     /**
-     * @return array|void
+     * @inheritdoc
      */
     public function validationGroup(array $payload)
     {
