@@ -2,9 +2,7 @@
 
 namespace Fesor\RequestObject;
 
-use Symfony\Component\Validator\Constraint;
-
-class RequestObject implements ValidationRules
+class RequestObject
 {
     private $payload;
 

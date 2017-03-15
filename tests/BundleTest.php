@@ -3,8 +3,9 @@
 use Fesor\RequestObject\Examples\App;
 use Fesor\RequestObject\InvalidRequestPayloadException;
 use Symfony\Component\HttpFoundation\Request;
+use \PHPUnit\Framework\TestCase;
 
-class BundleTest extends PHPUnit_Framework_TestCase
+class BundleTest extends TestCase
 {
     /**
      * @var App\AppKernel

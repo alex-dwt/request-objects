@@ -10,8 +10,9 @@ use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Validator\ConstraintViolation;
 use Symfony\Component\Validator\ConstraintViolationList;
 use Symfony\Component\Validator\Validator\ValidatorInterface;
+use PHPUnit\Framework\TestCase;
 
-class RequestBinderTest extends PHPUnit_Framework_TestCase
+class RequestBinderTest extends TestCase
 {
     /** @var  Request */
     private $request;
