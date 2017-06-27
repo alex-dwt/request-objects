@@ -1,5 +1,5 @@
 {
-    "name": "fesor/request-objects",
+    "name": "alex-dwt/request-objects",
     "description": "Custom request objects for Symfony made to make life less painful",
     "type": "library",
     "license": "MIT",
