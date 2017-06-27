@@ -8,9 +8,11 @@ class RequestObject
 {
     private $payload;
 
-    public function setPayload(array $payload = [])
+    public function setPayload(array $payload = []) : self
     {
         $this->payload = $payload;
+
+        return $this;
     }
 
     /**
