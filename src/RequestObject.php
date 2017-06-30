@@ -58,4 +58,9 @@ class RequestObject
     {
         return $this->payload;
     }
+
+    public function __get($property)
+    {
+        return $this->get($property);
+    }
 }
